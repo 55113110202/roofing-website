@@ -19,9 +19,9 @@ import { Separator } from "@/components/ui/separator";
 
 const navLinks = [
   { label: "Home", href: "#hero" },
-  { label: "Contact", href: "#contact" },
   { label: "Services", href: "#solutions" },
-  { label: "Blog", href: "#" },
+  { label: "Blog", href: "#blog" },
+  { label: "Contact", href: "#contact" },
 ];
 
 const solutionCards = [
@@ -423,6 +423,7 @@ export default function Home() {
         </motion.section>
 
         <motion.section
+          id="blog"
           className="space-y-8"
           variants={containerVariants}
           initial="hidden"
